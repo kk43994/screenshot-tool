@@ -139,11 +139,10 @@ class ModernFloatingWidget:
 
     def draw_camera_icon(self, center):
         """绘制现代化相机图标"""
-        # 相机主体
-        self.camera_body = self.canvas.create_rounded_rectangle(
+        # 相机主体（矩形）
+        self.camera_body = self.canvas.create_rectangle(
             center-14, center-8,
             center+14, center+10,
-            radius=4,
             fill='white',
             outline=''
         )
@@ -172,27 +171,6 @@ class ModernFloatingWidget:
             fill='white',
             outline=''
         )
-
-    def create_rounded_rectangle(self, x1, y1, x2, y2, radius=10, **kwargs):
-        """创建圆角矩形（用于canvas扩展）"""
-        points = [
-            x1+radius, y1,
-            x2-radius, y1,
-            x2, y1,
-            x2, y1+radius,
-            x2, y2-radius,
-            x2, y2,
-            x2-radius, y2,
-            x1+radius, y2,
-            x1, y2,
-            x1, y2-radius,
-            x1, y1+radius,
-            x1, y1
-        ]
-        return self.canvas.create_polygon(points, **kwargs, smooth=True)
-
-    # 为Canvas添加圆角矩形方法
-    tk.Canvas.create_rounded_rectangle = create_rounded_rectangle
 
     def update_state(self, state):
         """更新状态"""

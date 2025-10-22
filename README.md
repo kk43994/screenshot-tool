@@ -5,6 +5,13 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform: Windows](https://img.shields.io/badge/Platform-Windows-blue.svg)](https://www.microsoft.com/windows)
 [![Language: Python](https://img.shields.io/badge/Language-Python-green.svg)](https://www.python.org/)
+[![Version: 2.0](https://img.shields.io/badge/Version-2.0-brightgreen.svg)](https://github.com/kk43994/screenshot-tool)
+
+## 🎉 v2.0 现代版 - 全新发布！
+
+采用2025年最新设计趋势，现代化UI，功能更完善！
+
+**推荐使用**：`启动截图助手(最新版).bat`
 
 ## ✨ 特性
 
@@ -25,14 +32,18 @@
 - 全局热键支持
 - 实时状态显示和截图计数
 
-### ⭐ 悬浮窗版本（新功能！）
-- 小巧的星形悬浮窗，不占用桌面空间
-- 呼吸动画效果，待机更生动
-- 根据状态智能变色（绿色=就绪，橙色=截图中，蓝色=监听中）
-- 鼠标悬停放大效果
-- 点击展开完整界面
-- 可拖动到任意位置
-- 始终置顶显示
+### 🌟 v2.0 现代版（最新推荐！）
+- 🎨 2025年最新设计趋势
+- 🔄 圆形现代化悬浮窗（相机图标）
+- ✨ 平滑呼吸动画
+- 🎯 翠绿色主题（#10B981）
+- 📱 Segoe UI字体，更现代
+- 🗑️ 清理缓存功能
+- 📜 查看历史截图
+- ⚙️ 完整设置界面
+- 🖱️ 右键快捷菜单
+- 📌 系统托盘图标
+- 🎨 无锯齿、毛玻璃效果
 
 ## 🚀 快速开始
 
